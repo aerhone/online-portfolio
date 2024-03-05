@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aerhone's Portfolio</title>
+
+
+    <!-- BS Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./index.css">
+
+    <!-- Font awesome icon -->
+    <script src="https://kit.fontawesome.com/36f7466b0d.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./assets/images/logo.png">
+
+</head>
+<body data-bs-spy="scroll" data-bs-target="#stickyNavBar">
+
+    <div id="preloader">
+
+    </div>
+
+
+
+    <!-- Landing Page -->
+    <section id="landing" class="hero">
+        <div class="heroContent container vh-100 d-flex flex-column justify-content-center">
+             <!-- Name Banner -->
+            <div class="col-md-7 mb-5 text-center text-md-start text-light">
+                <h1 class="display-5 fw-bold  text-light my-0">Engr. Mark Aerhone Paul R. Palma</h1>
+                <p class="my-0"><span class="labelTitle"></span></p>
+            </div>
+            <!-- End of Name Banner -->
+
+            <!-- Nav buttons -->
+            <div class="col-md-6 col-6 offset-3 offset-md-0 text-light d-inline-flex flex-wrap">
+                    
+                <div class="py-2 hover col-md-3 col-6 d-flex justify-content-center navIconsOne">
+                    <a class="text-decoration-none text-white text-center" href="#projects">
+                        <img class="img-fluid w-50" src="./assets/images/project.png" alt="project icon">
+                        <p>Projects</p>
+                    </a>
+                </div>  
+            
+                <div class="py-2 hover col-md-3 col-6 d-flex justify-content-center navIconsTwo">
+                    <a class="text-decoration-none text-white text-center" href="#tools">
+                        <img class="img-fluid w-50" src="./assets/images/tools.png" alt="tools icon">
+                        <p>Tools</p>
+                    </a>    
+                </div>
+
+                <div class="py-2 hover col-md-3 col-6 d-flex justify-content-center navIconsThree">
+                    <a class="text-decoration-none text-white text-center" href="#profile">
+                        <img class="img-fluid w-50" src="./assets/images/profile.png" alt="profile icon">
+                        <p>Profile</p>
+                    </a>  
+                </div>
+       
+                <div class="py-2 hover col-md-3 col-6 d-flex justify-content-center navIconsFour">
+                    <a class="text-decoration-none text-white text-center"  href="#contact">
+                        <img class="img-fluid w-50" src="./assets/images/phone.png" alt="contact icon">
+                        <p>Contact</p>
+                    </a>
+                    
+                </div>
+
+            </div>
+            <!-- End of Nav Buttons -->
+        </div>
+    </section>
+    <!-- End of Landing Page -->
+
+    <!-- Sticky Nav Bar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top z-3" aria-label="Offcanvas navbar medium" id="stickyNavBar">
+        <div class="container">
+         
+            <img src="./assets/images/logo.png" class="img-fluid brandLogo"/>
+
+          
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#hamburger" aria-controls="hamburger" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start offcanvasContainer" tabindex="-1" id="hamburger" aria-labelledby="hamburgerLabel">
+                <div class="offcanvas-header">
+                    <img src="./assets/images/logo.png" class="img-fluid brandLogo"/>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="d-md-none border-bottom">
+                        <div class="col-6 offset-3">
+                            <img src="./assets/images/profilepicture.webp" class="img-fluid rounded-circle hover">
+                           
+                        </div>
+
+                        <h4 class="text-light text-center mb-0 pt-2">
+                            Aerhone Palma
+                        </h4>
+                        
+                        <div class="d-flex col-6 offset-3">
+ 
+                            <div class="p-1">
+                                <a href="https://www.linkedin.com/in/aerhonepalma" target="_blank"><img src="./assets/images/linked.png" class="img-fluid my-3 hover" alt="linked in icon"></a>
+                            </div>
+                            <div class="p-1">
+                                <a href="https://www.facebook.com/aerhonepalma" target="_blank"><img src="./assets/images/fb.png" class="img-fluid my-3 hover" alt="facebook icon"></a>
+                            </div>
+                            <div class="p-1">
+                                <a href="https://www.instagram.com/aerhone" target="_blank"><img src="./assets/images/ig.png" class="img-fluid my-3 hover" alt="instagram icon"></a>
+                            </div>
+                            <div class="p-1">
+                                <a href="mailto:markaerhonepaul@gmail.com" target="_blank"><img src="./assets/images/mail.png" class="img-fluid my-3 hover" alt="gmail icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="navbar-nav justify-content-end flex-grow-1">
+                        <li class="nav-item">
+                        <a class="nav-link navLink" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navLink" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navLink" href="#tools">Tools</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navLink" href="#profile">Profile</a>
+                            </li>
+                        <li class="nav-item">
+                            <a class="nav-link navLink" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Sticky Nav Bar -->
+
+    <!-- Project Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h3 class="labelTitle py-3 fw-bold text-break ">My Projects</h3>
+            <div class="row text-light">
+                <div class="col-md-4 col-12 p-2">
+                    <div class="projectContainer rounded">
+                        <img src="./assets/images/project1.webp" alt="project photo" class="rounded">
+                        <div class="projectDescription rounded">
+                            <h3>E-Commerce APP</h3>
+                            <p>Developed a fullstack ecommerce web application using ReactJS, RESTful API, ExpressJS, and MongoDB</p>
+                            <a href="http://zuitt-bootcamp-prod-362-6619-palma.s3-website.us-east-1.amazonaws.com/" target="_blank" class="bg-light linkIcon p-3 rounded-circle"><i class="fa-solid fa-rocket"></i></a>
+                        </div>    
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 p-2">
+                    <div class="projectContainer rounded">
+                        <img src="./assets/images/project2.webp" alt="project photo" class="rounded">
+                        <div class="projectDescription rounded">
+                            <h3>Web Dev Portfolio</h3>
+                            <p>Designed and created a static mobile friendly portfolio using only HTML and CSS</p>
+                            <a href="https://aerhone.github.io/Portfolio/" target="_blank" class="bg-light linkIcon p-3 rounded-circle"><i class="fa-solid fa-rocket"></i></a>
+                        </div>    
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 p-2">
+                    <div class="projectContainer rounded">
+                        <img src="./assets/images/project3.webp" alt="project photo" class="rounded">
+                        <div class="projectDescription rounded">
+                            <h3>The Purple Shop</h3>
+                            <p>After learning Bootstrap, this is my attempt to make a landing page for our RTW business.</p>
+                            <a href="https://aerhone.github.io/The-Purple-Shop-Landing-Page/" target="_blank" class="bg-light linkIcon p-3 rounded-circle"><i class="fa-solid fa-rocket"></i></a>
+                        </div>    
+                    </div>
+                </div>
+
+            </div>
+            <div class="github mt-3 text text-center d-flex justify-content-center mx-auto rounded">
+                <a href="https://github.com/aerhone" target="_blank" class="text-light m-0 p-3">See more <i class="fa-solid fa-rocket"></i></a>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- End of Project Section -->
+
+    <!-- Tools Section -->
+    <section id="tools" class="py-5">
+        <div class="container pb-5">
+
+            <h3 class="labelTitle py-3 fw-bold text-break ">My Tools</h3>
+
+            <!-- Tools display for medium and up -->
+            <div class="d-none d-md-block">
+                <!-- Core Tools -->
+                <div class="d-flex">
+                    <div class="col-md-3 p-2 col-6 offset-3 offset-md-0">
+                        <div class="toolsContent rounded d-flex flex-column justify-content-end align-items-center">
+                            <div class="toolsContainer pt-2 pb-5 px-2">
+                            <img src="./assets/images/html5.png" class="img-fluid cover-image" />
+                            </div>
+                            <h4 class="toolTitle labelTitle">HTML 5</h4>
+                            <img src="./assets/images/html.png" class="img-fluid character" />
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-2 col-6 offset-3 offset-md-0">
+                        <div class="toolsContent rounded d-flex flex-column justify-content-end align-items-center">
+                            <div class="toolsContainer pt-2 pb-5 px-2">
+                            <img src="./assets/images/css3.jpg" class="img-fluid cover-image" />
+                            </div>
+                            <h4 class="toolTitle labelTitle">CSS 3</h4>
+                            <img src="./assets/images/css.png" class="img-fluid character" />
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-2 col-6 offset-3 offset-md-0">
+                        <div class="toolsContent rounded d-flex flex-column justify-content-end align-items-center">
+                            <div class="toolsContainer pt-2 pb-5 px-2">
+                            <img src="./assets/images/javascript.png" class="img-fluid cover-image" />
+                            </div>
+                            <h4 class="toolTitle labelTitle">Javascript</h4>
+                            <img src="./assets/images/js.png" class="img-fluid character" />
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-2 col-6 offset-3 offset-md-0">
+                        <div class="toolsContent rounded d-flex flex-column justify-content-end align-items-center">
+                            <div class="toolsContainer pt-2 pb-5 px-2">
+                            <img src="./assets/images/bootstrap.jpg" class="img-fluid cover-image" />
+                            </div>
+                            <h4 class="toolTitle labelTitle">Bootstrap</h4>
+                            <img src="./assets/images/bootstrap.png" class="img-fluid character" />
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- End of Core Tools -->
+
+                <!-- Full Stack Tools -->
+                <div class="d-flex">
+                    <div class="col-md-3 p-2 col-6 offset-3 offset-md-0">
+                        <div class="toolsContent rounded d-flex flex-column justify-content-end align-items-center">
+                            <div class="toolsContainer pt-2 pb-5 px-2">
+                            <img src="./assets/images/mongodbphoto.png" class="img-fluid" />
+                            </div>
+                            <h4 class="toolTitle labelTitle">MongoDB</h4>
+                            <img src="./assets/images/mongodb.png" class="img-fluid character" />
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-2 col-6 offset-3 offset-md-0">
+                        <div class="toolsContent rounded d-flex flex-column justify-content-end align-items-center">
+                            <div class="toolsContainer pt-2 pb-5 px-2">
+                            <img src="./assets/images/expressphoto.png" class="img-fluid cover-image" />
+                            </div>
+                            <h4 class="toolTitle labelTitle">ExpressJS</h4>
+                            <img src="./assets/images/express.png" class="img-fluid character" />
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-2 col-6 offset-3 offset-md-0">
+                        <div class="toolsContent rounded d-flex flex-column justify-content-end align-items-center">
+                            <div class="toolsContainer pt-2 pb-5 px-2">
+                            <img src="./assets/images/reactphoto.png" class="img-fluid cover-image" />
+                            </div>
+                            <h4 class="toolTitle labelTitle">ReactJS</h4> 
+                            <img src="./assets/images/react.png" class="img-fluid character" />
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-2 col-6 offset-3 offset-md-0">
+                        <div class="toolsContent rounded d-flex flex-column justify-content-end align-items-center">
+                            <div class="toolsContainer pt-2 pb-5 px-2">
+                            <img src="./assets/images/nodephoto.webp" class="img-fluid cover-image" />
+                            </div>
+                            <h4 class="toolTitle labelTitle">NodeJS</h4>
+                            <img src="./assets/images/node js.png" class="img-fluid character" />
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Full Stack Tools -->
+            </div>
+            <!-- End of Tools display for medium and up -->
+
+            <!-- Tools Display for small screen -->
+            <div class="d-md-none col-10 offset-1 d-flex flex-column">
+                <div id="htmlContainer" class="d-flex smallToolContainer rounded p-2 my-2" >
+                    <div class="col-2 offset-1 toolIcons" id="htmlIcon">
+                        <img src="./assets/images/html.png" class="img-fluid" />
+                    </div>
+                    <div class="col-8 d-flex justify-content-center align-items-center">
+                        <h4 class="labelTitle text-break">HTML 5</h4>   
+                    </div>
+                </div>
+
+                <div id="cssContainer" class="d-flex smallToolContainer rounded p-2 my-2"  >
+                    <div class="col-2 offset-1 toolIcons" id="cssIcon">
+                        <img src="./assets/images/css.png" class="img-fluid" />
+                    </div>
+                    <div class="col-8 d-flex justify-content-center align-items-center">
+                        <h4 class="labelTitle text-break">CSS 3</h4>   
+                    </div>
+                </div>
+                <div id="jsContainer" class="d-flex smallToolContainer rounded p-2 my-2" >
+                    <div class="col-2 offset-1 toolIcons" id="jsIcon">
+                        <img src="./assets/images/js.png" class="img-fluid" />
+                    </div>
+                    <div class="col-8 d-flex justify-content-center align-items-center">
+                        <h4 class="labelTitle text-break">Javascript</h4>   
+                    </div>
+                </div>
+                <div id="bsContainer" class="d-flex smallToolContainer rounded p-2 my-2" >
+                    <div class="col-2 offset-1 toolIcons" id="bsIcon">
+                        <img src="./assets/images/bootstrap.png" class="img-fluid" />
+                    </div>
+                    <div class="col-8 d-flex justify-content-center align-items-center">
+                        <h4 class="labelTitle text-break">Bootstrap</h4>   
+                    </div>
+                </div>
+                <div id="mongoContainer" class="d-flex smallToolContainer rounded p-2 my-2" >
+                    <div class="col-2 offset-1 toolIcons" id="mongoIcon">
+                        <img src="./assets/images/mongodb.png" class="img-fluid" />
+                    </div>
+                    <div class="col-8 d-flex justify-content-center align-items-center">
+                        <h4 class="labelTitle text-break">MongoDB</h4>   
+                    </div>
+                </div>
+                <div id="ejsContainer" class="d-flex smallToolContainer rounded p-2 my-2" >
+                    <div class="col-2 offset-1 toolIcons" id="ejsIcon">
+                        <img src="./assets/images/express.png" class="img-fluid" />
+                    </div>
+                    <div class="col-8 d-flex justify-content-center align-items-center">
+                        <h4 class="labelTitle text-break">ExpressJS</h4>   
+                    </div>
+                </div>
+                <div id="rjsContainer" class="d-flex smallToolContainer rounded p-2 my-2" >
+                    <div class="col-2 offset-1 toolIcons" id="rjsIcon">
+                        <img src="./assets/images/react.png" class="img-fluid toolIcons" />
+                    </div>
+                    <div class="col-8 d-flex justify-content-center align-items-center">
+                        <h4 class="labelTitle text-break">ReactJS</h4>   
+                    </div>
+                </div>
+                <div id="njsContainer" class="d-flex smallToolContainer rounded p-2 my-2" >
+                    <div class="col-2 offset-1 toolIcons" id="njsIcon">
+                        <img src="./assets/images/node js.png" class="img-fluid toolIcons" />
+                    </div>
+                    <div class="col-8 d-flex justify-content-center align-items-center">
+                        <h4 class="labelTitle text-break">NodeJS</h4>   
+                    </div>
+                </div>
+            </div>
+            <!-- End of Tools Display for small screen -->
+     
+        </div>
+
+    </section>
+    <!-- End of Tools Section -->
+
+    <!-- About -->
+    <section id="profile" class="my-5 py-5">
+        <div class="container d-flex flex-column flex-md-row pt-5">
+            <div class="col-12 col-md-4 pb-4 pb-md-0">
+                <div class="aboutPhotoContainer  col-10  offset-1 align-items-end rounded">
+                    <img src="./assets/images/aerhone-half.webp" alt="aerhone" class="img-fluid">
+                </div>
+
+            </div>
+            <div class="col-12 col-md-8">
+                <h3 class="labelTitle pb-3 fw-bold text-break ">About Me</h3>
+                <div class="text-light">
+                    <p>Hello! I'm Aerhone, a dynamic individual driven by a love for learning and diverse experiences. After graduating in Mechanical Engineering in 2016 and obtaining my engineering license, I ventured into property management, wearing various hats from Building Engineer to Property Manager. However, my fascination with technology led me to transition into web development. In 2023, I took a leap of faith, leaving my job to fully immerse myself in coding and development. It's been an exhilarating journey, and I'm eager to explore the boundless opportunities ahead.</p>
+                </div>
+                <div class="tab-titles text-light d-flex gap-md-5 gap-3">
+                    <p class="tab-links active-link">Skills</p>
+                    <p class="tab-links">Education</p>
+                    <p class="tab-links">Experience</p>
+                </div>
+                <div class="tab-contents text-light active-tab">
+                    <ul class="ps-0">
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>Photoshop</span><br>Photo Editing</li>
+                    </ul>
+                </div>
+                <div class="tab-contents text-light">
+                    <ul class="ps-0">
+                        <li><span>Full Stack Web Development Bootcamp</span><br>2024<br>Zuitt Coding Bootcamp</li>
+                        <li><span>Bachelor of Science in Mechanical Engineering</span><br>2011 - 2016<br>Bulacan State University</li>
+                    </ul>
+                </div>
+                <div class="tab-contents text-light">
+                    <ul class="ps-0">
+                        <li><span>Globalland Property Management Inc.</span><br>July 2022 to October 2023
+                            <ul class="text-break">
+                                <li>Property Manager (Sep. 2023 - Oct. 2023)</li>
+                                <li>Building Engineer (May 2023 - Sep 2023)</li>
+                                <li>Procurement Engineer (Jul. 2022 - May 2023)</li>
+                            </ul>
+                        </li>
+                        <li><span>Global Facilities Management Experts, Inc.</span><br>August 2019 to July 2022
+                            <ul class="text-break">
+                                <li>Facilities Engineer - Mechanical Works (Aug. 2019 - Jul. 2022)</li>
+                                <li>Facilities Engineer - POM Operations (May 2022 - Jul. 2022)</li>
+                            </ul>    
+                        </li>
+                        <li><span>Globalland Property Management Inc.</span><br>August 2017 to August 2019
+                            <ul class="text-break">
+                                <li>Team Leader(Apr. 2018 - Aug. 2019)</li>
+                                <li>Building Engineer (Aug. 2017 - Aug. 2019)</li>
+                            </ul>    
+                        </li>
+                        <li><span>Lamoiyan Corpoaration</span><br>February 2017 to August 2017
+                            <ul class="text-break">
+                                <li>Cadet Engineer</li>
+                            </ul>    
+                        </li>
+                        <li><span>Frey-Fil Corporation</span><br>November 2016 to February 2017
+                            <ul class="text-break">
+                                <li>Cadet Engineer</li>
+                            </ul>    
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- End of About -->
+
+    <!-- Contact Section --> 
+    <section id="contact" class="py-5">
+
+        <div class="container">
+            <h3 class="labelTitle py-3 fw-bold text-break ">Contact Me</h3>
+            <div class="container d-flex flex-column flex-md-row px-0">
+                <div class="col-md-6">
+                    <form name="submit-to-google-sheet" class=" text-light formContainer p-2 mb-3 rounded" >
+                        <div class="mb-3">
+                            <label for="Name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="Name" name="Name" placeholder="Enter Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" name="Email" class="form-control" id="email" placeholder="Enter Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" name="Message" placeholder="Enter Your Messsage" required></textarea>
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn col-6 formSubmit text-light">Submit <i class="fa-solid fa-paper-plane"></i></button>
+                        </div>
+                    </form>
+                    <span id="msg" class="text-light"></span>
+    
+
+                </div>
+
+                <div class="contactContainer col-md-6 p-2 text-light flex-column" >
+                    <div class="d-flex mb-3">
+                        <div class="col-2 offset-2 d-flex justify-content-center align-items-center">
+                            <img src="./assets/images/profile.png" class="img-fluid w-50">
+                        </div>
+                        <div class="col-6 d-flex justify-content-start align-items-center">
+                            <p>Engr. Mark Aerhone Paul R. Palma</p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-3">
+                        <div class="col-2 offset-2 d-flex justify-content-center align-items-center">
+                            <img src="./assets/images/loc.png" class="img-fluid w-50">
+                        </div>
+                        <div class="col-6 d-flex justify-content-start align-items-center">
+                            <p><em>Bulacan, Philippines</em></p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-3">
+                        <div class="col-2 offset-2 d-flex justify-content-center align-items-center">
+                            <img src="./assets/images/phone.png" class="img-fluid w-50">
+                        </div>
+                        <div class="col-6 d-flex justify-content-start align-items-center">
+                            <p><em>0906-518-3900 | 0999-195-7143</em></p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-center resume d-flex justify-content-center mx-auto rounded mb-3">
+                        <a href="assets/files/Mark Aerhone Paul Palma_CV_2024.pdf" download="Resume" class="text-light px-2"><p class="m-0 p-2"><i class="fa-solid fa-file-arrow-down"></i> Resume</p></a>
+                    </div>
+
+                    <div class="d-flex flex-column mb-3 align-items-center">
+                        <p class="my-2">Socials</p>
+                        <div>
+                            <div class="d-flex col-6 offset-3">
+ 
+                                <div class="p-1">
+                                    <a href="https://www.linkedin.com/in/aerhonepalma" target="_blank"><img src="./assets/images/linked.png" class="img-fluid my-3 hover" alt="linked in icon"></a>
+                                </div>
+                                <div class="p-1">
+                                    <a href="https://www.facebook.com/aerhonepalma" target="_blank"><img src="./assets/images/fb.png" class="img-fluid my-3 hover" alt="facebook icon"></a>
+                                </div>
+                                <div class="p-1">
+                                    <a href="https://www.instagram.com/aerhone" target="_blank"><img src="./assets/images/ig.png" class="img-fluid my-3 hover" alt="instagram icon"></a>
+                                </div>
+                                <div class="p-1">
+                                    <a href="mailto:markaerhonepaul@gmail.com" target="_blank"><img src="./assets/images/mail.png" class="img-fluid my-3 hover" alt="gmail icon"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Contact Section -->
+    
+
+    <!-- Footer Section -->
+    <footer class="flex text-light bg-dark py-3">
+        <div class="d-flex justify-content-center">
+        <img src="./assets/images/eggnog.webp" class="img-fluid" alt="pet dog picture">
+        <small><p class="my-0">©2024 @aerhone</p></small>
+        <img src="./assets/images/Chamcham.webp" class="img-fluid" alt="pet dog picture">
+        </div>
+    </footer>
+    <!-- Footer Section -->
+
+    <!-- BS Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
