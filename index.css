@@ -6,7 +6,7 @@
 
 body{
     background-color: #222831;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 #preloader{
@@ -16,8 +16,8 @@ body{
     position: fixed;
     z-index: 100;
     display: flex;
-    justify-content: center; /* Center the content horizontally */
-    align-items: center; /* Center the content vertically */
+    justify-content: center;
+    align-items: center; 
 }
 
 
