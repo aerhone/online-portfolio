@@ -143,10 +143,10 @@ body{
 }
 
 .offcanvasContainer{
-    background: rgba(24, 24, 16, .2);
+    background-color: rgba(24, 24, 16, .2);
     backdrop-filter: blur(15px);
-    background-size: cover;
-    background-repeat: no-repeat;
+    /* background-size: cover;
+    background-repeat: no-repeat; */
 }
 
 .navLink{
