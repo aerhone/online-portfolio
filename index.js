@@ -53,7 +53,7 @@ form.addEventListener('submit', e => {
         body: new FormData(form)
     })
     .then(response => {
-        msg.innerHTML = "Message sent successfully";s
+        msg.innerHTML = "Message sent successfully";
         setTimeout(function(){
             msg.innerHTML = "";
         }, 5000);
